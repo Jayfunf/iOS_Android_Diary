@@ -20,9 +20,17 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         // Get the managed object context from the shared persistent container.
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        //let diary = diaryStore()
 
         // Create the SwiftUI view and set the context as the value for the managedObjectContext environment keyPath.
         // Add `@Environment(\.managedObjectContext)` in the views that will need the context.
+        
+        // environment설정
+//        let contentView = LoginView()
+//            .environment(\.managedObjectContext, context)
+//            .environmentObject(diary)
+        
+        // 일단 environment 설정 없이 기본적인 SwiftUIView구현후 environment구현ㄱㄱ
         let contentView = ContentView().environment(\.managedObjectContext, context)
 
         // Use a UIHostingController as window root view controller.
@@ -31,6 +39,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             window.rootViewController = UIHostingController(rootView: contentView)
             self.window = window
             window.makeKeyAndVisible()
+            
+            
         }
     }
 
