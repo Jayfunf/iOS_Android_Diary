@@ -18,6 +18,7 @@
 		86065B87278EB51900986F1C /* diary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86065B86278EB51900986F1C /* diary.swift */; };
 		86065B89278EB52300986F1C /* diaryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86065B88278EB52300986F1C /* diaryStore.swift */; };
 		86926CCB2792DBC80027144F /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86926CCA2792DBC80027144F /* mainView.swift */; };
+		86926CCD27956F630027144F /* myPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86926CCC27956F630027144F /* myPageView.swift */; };
 		8E836CB397BAA1819CFD03E3 /* Pods_iOS_Android_Diary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42A35041A82462397108CE6 /* Pods_iOS_Android_Diary.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		86065B86278EB51900986F1C /* diary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diary.swift; sourceTree = "<group>"; };
 		86065B88278EB52300986F1C /* diaryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diaryStore.swift; sourceTree = "<group>"; };
 		86926CCA2792DBC80027144F /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
+		86926CCC27956F630027144F /* myPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageView.swift; sourceTree = "<group>"; };
 		C71B0E9DC83E1AA6FBD798E7 /* Pods-iOS_Android_Diary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Android_Diary.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Android_Diary/Pods-iOS_Android_Diary.debug.xcconfig"; sourceTree = "<group>"; };
 		F42A35041A82462397108CE6 /* Pods_iOS_Android_Diary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Android_Diary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 			children = (
 				86065B69278EAC8B00986F1C /* ContentView.swift */,
 				86926CCA2792DBC80027144F /* mainView.swift */,
+				86926CCC27956F630027144F /* myPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86926CCD27956F630027144F /* myPageView.swift in Sources */,
 				86065B66278EAC8B00986F1C /* AppDelegate.swift in Sources */,
 				86926CCB2792DBC80027144F /* mainView.swift in Sources */,
 				86065B89278EB52300986F1C /* diaryStore.swift in Sources */,
