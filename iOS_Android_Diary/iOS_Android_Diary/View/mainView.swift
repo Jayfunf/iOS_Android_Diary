@@ -8,8 +8,21 @@
 import SwiftUI
 
 struct mainView: View {
+    //@EnvironmentObject var userName: userName
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+        Text("main")
+            .navigationBarTitle("나의 일기", displayMode: .large) // large
+            .navigationBarItems(leading: Button(action: {}){
+                Text("일기 추가")
+                },trailing:
+                    NavigationLink(
+                        destination: myPageView(),
+                        label: {
+                            Text("사용자")
+                        }))
+            
+        }
     }
 }
 
