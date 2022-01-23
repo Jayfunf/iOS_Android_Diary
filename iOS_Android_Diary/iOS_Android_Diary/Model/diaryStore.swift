@@ -8,7 +8,7 @@
 import Foundation
 
 class diaryStore: ObservableObject{
-    @Published var DiaryList: [Diary]
+    @Published var DiaryList: [Diary] //이 값을 바인딩?
     
     
     init() {
