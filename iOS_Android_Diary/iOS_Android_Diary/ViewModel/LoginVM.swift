@@ -11,7 +11,7 @@ import Alamofire
 // codable이 아닌 JSONSerialization을 사용한 이유 -> JSON의 형식이 codable을 쓸 만큼 복잡하지 않다.
 // reference를 참조하여 차이 다시 생각하자.
 func login(ID:String){
-    let url = "test"
+    let url = "test" // 여기에 민석이 서버 주소 연결
     var request = URLRequest(url: URL(string: url)!)
     request.httpMethod = "POST"
     request.setValue("application/data", forHTTPHeaderField: "Content-Type")
